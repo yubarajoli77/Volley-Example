@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/libraries_lms"
+    android:orientation="vertical"
+    tools:context="com.example.yubaraj.lms.login.LoginActivity">
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/user_name"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="8dp"
+            android:hint="Username"
+            android:padding="8dp"
+            android:textSize="18dp" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/user_name"
+            android:drawableLeft="@drawable/password2"
+            android:drawablePadding="8dp"
+            android:hint="Password"
+            android:padding="2dp"
+            android:textSize="18dp" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="16dp"
+            android:id="@+id/btn_signIn"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_style"
+            android:fontFamily="cursive"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textSize="24dp"/>
+    </LinearLayout>
+
+</android.widget.LinearLayout>
